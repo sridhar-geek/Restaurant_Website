@@ -18,6 +18,11 @@
     cursor: pointer;
 }
 
+.socialMedia svg:hover{
+    transform: scale(1.7);
+    color:rgb(44, 44, 144);
+}
+
 .footer p {
     color: white;
     margin-bottom: 40px;

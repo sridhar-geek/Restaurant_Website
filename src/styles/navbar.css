@@ -54,21 +54,20 @@
 .navbar #close img {
     display: inherit;
 }
-
-/* .navbar #open .hiddenLinks {
+.hiddenLinks  {
     display: inherit;
     margin-left: 30px;
     margin-top: 30px;
 }
 
-.navbar #close .hiddenLinks {
+.navbar #close a {
     display: none;
-} */
+} 
 
-/* .navbar #open a {
+ .hiddenLinks a {
     width: 70px;
     margin: 5px;
-} */
+}
 
 @media only screen and (max-width: 900px) {
     .navbar .rightSide a {
@@ -93,10 +92,10 @@
     .navbar .rightSide button {
         display: inherit;
     }
+    .navbar #close .hiddenLinks a{
+        display: none;
+    }
 
-     /* .navbar #close.hiddenLinks {
-     display: none;
-    } */
 }
 
 @media only screen and (min-width: 600px) {
